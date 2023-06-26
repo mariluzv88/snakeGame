@@ -7,21 +7,71 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
      <!-- mainContainer -->
-        <!-- gameBoard -->
-         <!-- player1 score -->
-         <!-- player2 score -->
-        <!-- popMenu -->
-            <!-- startGame / game details -->
-            <!-- player 1 wins -->
-            <!-- player 2 wins -->
-            <!-- game over -->
-            <!-- round 2 start -->
-            <!-- round 3 start -->
+     <div class="mainContainer">
+            <!-- gameBoard -->
+            <!-- player1 score -->
+            <div class="p1Score">Score:0</div>
+            <div class="gameBoard">
+                <!-- player 1 snake -->
+                <div class="p1Snake"></div>
+                <!-- player 2snake -->
+                <div class="p2Snake"></div>
+                <!-- food pellet -->
+                <div class="food"></div>
+                 </div>
+            <!-- player2 score -->
+            <div class="p2Score">Score:0</div>
+        </div>
+            <!-- popMenu -->
+            <div class="popMenu ">
         
-        <script src="" async defer></script>
-    </body>
-</html>
+                <!-- startGame / game details -->
+                <div class="startGame">
+                    <button class="start">Start</button>
+                    <div class="title">Snake Game</div>
+                    <div class="txt"></div>
+                </div>
+                <!-- player 1 wins -->
+                <div class="p1Win">
+                    <div class="title">Player 1 wins</div>
+                    <button class="playAgain">Play Again</button>
+                </div>
+                <!-- player 2 wins -->
+                <div class="p2Win">
+                    <div class="title">Player 2 Wins</div>
+                    <button class="playAgain">Play Again</button>
+                </div>
+                <!-- game over -->
+                <div class="gameOver">
+                    <div class="title">Game Over</div>
+                    <div class="txt">Wall Beats Snake</div>
+                    <button class="tryAgain">Try Agian</button>
+                </div>
+                <!-- round 2 start -->
+                <div class="round2">
+                    <div class="title">Round two is starting</div>
+                </div>
+                <!-- round 3 start -->
+                <div class="round3">
+                    <div class="title">Round three is starting</div>
+                </div>
+            </div>
+           
+            
+            <script src="app.js" async defer></script>
+        </body>
+    </html>
+                    
+            
+                    
+                    
+                
+                
+            
+                
+                
+               

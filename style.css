@@ -1,2 +1,63 @@
+body{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer{
+    border: solid black;
+    height: 95vmin;
+    width: 95vmin;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 /* display grid */
 /* row/ cloumn  box 1fr*/
+.gameBoard{
+    display: grid;
+    grid-template-columns: 20px;
+    grid-template-rows: 20px;
+    background-color: rgb(2, 85, 144);
+    /* border: solid white; */
+    height: 80%;
+    width: 80%;
+}
+.p1Snake{
+background-color: lime;
+height: 20px;
+width: 20px;
+}
+.p2Snake{
+background-color: orangered;
+height: 20px;
+width: 20px;
+}
+.food{
+background-color: magenta;
+height: 20px;
+width: 20px;
+}
+/* ----------pop Up---------------- */
+.popMenu{
+    height: 150px;
+    width: 150px;
+    border: solid purple;
+    visibility: hidden;
+}
+.startGame{
+    visibility: hidden;
+}
+.p1Win{
+    visibility: hidden;
+}
+.p2Win{
+    visibility: hidden;
+}
+.gameOver{
+    visibility: hidden;
+}
+.round2{
+    visibility: hidden;
+}
+.round3{visibility: hidden;}
